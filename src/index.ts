@@ -1,4 +1,4 @@
-import { Transaction, Account, AccountManager } from './classes.ts';
+import { Transaction, Account, AccountManager } from './classes';
 
 // Создаем транзакции
 const salary = new Transaction(1, 50000, 'income', '2024-01-15', 'Зарплата за январь');

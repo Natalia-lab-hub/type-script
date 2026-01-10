@@ -25,11 +25,6 @@ export interface IAccountManager {
     getAllAccounts(): IAccount[];
 }
 
-
-
-
-
-
     // Методы
     addAccount(account: Account): void {
         this.accounts.push(account);
